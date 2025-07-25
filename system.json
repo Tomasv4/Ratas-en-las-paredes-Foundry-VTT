@@ -1,0 +1,113 @@
+{
+  "name": "ratasenlasparedes",
+  "title": "Ratas en las paredes",
+  "description": "Ratas en las paredes para FoundryVTT!",
+  "version": "1.2.1",
+  "compatibility": {
+	"minimum": "10",
+	"verified": "11"
+  },
+  "templateVersion": 2,
+  "author": "jvir",
+    "authors": [
+    {
+      "name": "jvir"
+    },
+	{
+      "name": "NeV3rKilL"
+    },
+	{
+      "name": "ParvusDomus"
+    }
+  ],
+  "esmodules": ["module/ratasenlasparedes.js"],
+  "styles": ["css/ratasenlasparedes.css"],
+  "scripts": [],
+  "packs": [
+        {
+			"name": "armas",
+			"label": "Armas",
+			"system": "ratasenlasparedes",
+			"path": "./packs/armas.db",
+			"type": "Item"
+		},
+		{
+			"name": "ayudas",
+			"label": "Ayudas",
+			"system": "ratasenlasparedes",
+			"path": "./packs/ayudas.db",
+			"type": "JournalEntry"
+		},
+		{
+			"name": "equipo",
+			"label": "Equipo",
+			"system": "ratasenlasparedes",
+			"path": "./packs/equipo.db",
+			"type": "Item"
+		},
+		{
+			"name": "profesiones",
+			"label": "Profesiones",
+			"system": "ratasenlasparedes",
+			"path": "./packs/profesiones.db",
+			"type": "Item"
+		},
+		{
+			"name": "reputaciones",
+			"label": "Reputaciones",
+			"system": "ratasenlasparedes",
+			"path": "./packs/reputaciones.db",
+			"type": "Item"
+		},
+		{
+			"name": "hechizos",
+			"label": "Hechizos",
+			"system": "ratasenlasparedes",
+			"path": "./packs/hechizos.db",
+			"type": "Item"
+		},
+		{
+			"name": "experiencia",
+			"label": "Experiencia",
+			"system": "ratasenlasparedes",
+			"path": "./packs/experiencia.db",
+			"type": "Item"
+		},
+		{
+			"name": "tablas",
+			"label": "Tablas",
+			"system": "ratasenlasparedes",
+			"path": "./packs/tablas.db",
+			"type": "RollTable"
+		},
+		{
+			"name": "antagonistas",
+			"label": "Antagonistas",
+			"system": "ratasenlasparedes",
+			"path": "./packs/antagonistas.db",
+			"type": "Actor"
+		},
+        {
+			"name": "horrores-tras-los-muros-de-la-cordura",
+			"label": "Horrores tras los muros de la cordura",
+			"system": "ratasenlasparedes",
+			"path": "./packs/horrores-tras-los-muros-de-la-cordura.db",
+			"type": "Actor"
+		}
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json"
+    }
+  ],
+  "gridDistance": 2,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "pv",
+  "secondaryTokenAttribute": "pc",
+  "url": "https://gitlab.com/jvir/foundry-ratasenlasparedes/",
+  "manifest": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/raw/master/system.json",
+  "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
+  "license": "LICENSE.txt"
+}

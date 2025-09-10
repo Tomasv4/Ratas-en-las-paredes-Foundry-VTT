@@ -2,10 +2,10 @@
   "name": "ratasenlasparedes",
   "title": "Ratas en las paredes",
   "description": "Ratas en las paredes para FoundryVTT!",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "compatibility": {
-	"minimum": "10",
-	"verified": "11"
+	"minimum": "13",
+	"verified": "13"
   },
   "templateVersion": 2,
   "author": "jvir",
@@ -18,6 +18,9 @@
     },
 	{
       "name": "ParvusDomus"
+    },
+	{
+      "name": "TV"
     }
   ],
   "esmodules": ["module/ratasenlasparedes.js"],
@@ -106,8 +109,8 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "pv",
   "secondaryTokenAttribute": "pc",
-  "url": "https://gitlab.com/jvir/foundry-ratasenlasparedes/",
-  "manifest": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/raw/master/system.json",
+  "url": "https://github.com/Tomasv4/Ratas-en-las-paredes-Foundry-VTT/",
+  "manifest": "https://github.com/Tomasv4/Ratas-en-las-paredes-Foundry-VTT/edit/main/system.json",
   "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
   "license": "LICENSE.txt"
 }
